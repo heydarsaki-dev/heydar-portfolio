@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <div className='h-full'>
             {/*    Text   */}
-            <div className='w-full h-full'>
+            <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
                 <div className='text-center flex flex-col justify-center pt-20 xl:pt-30 xl:text-left
                 h-full container mx-auto'>
                     {/*   Title   */}

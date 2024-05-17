@@ -14,7 +14,7 @@ export default function Home() {
         <div className='h-full'>
             {/*    Text   */}
             <div className='w-full h-full'>
-                <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left
+                <div className='text-center flex flex-col justify-center pt-20 xl:pt-30 xl:text-left
                 h-full container mx-auto'>
                     {/*   Title   */}
                     <h1 className='h1'>Transforming Ideas <br /> Into

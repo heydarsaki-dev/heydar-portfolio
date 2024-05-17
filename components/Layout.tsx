@@ -13,8 +13,7 @@ export default function Layout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className={'relative page bg-site  text-white bg-cover bg-no-repeat'}>
-            <div className="absolute bg-gradient-to-r from-primary/10 via-black/30 to-black/10 h-full w-full z-10"></div>
+        <div className={ page bg-site  text-white bg-cover bg-no-repeat'}>
             <TopLeftImg />
             <Nav />
             <Header />

@@ -41,7 +41,7 @@ const Nav = () => {
 
 
     return <nav
-        className='flex flex-col items-center lg:justify-center gap-y-4 fixed h-max bottom-0 mt-auto lg:right-[2%] z-50 top-0 w-full lg:w-16 lg:max-w-md lg:h-screen'>
+        className='flex flex-col items-center lg:justify-center gap-y-4 fixed h-max bottom-0 mt-auto lg:left-[2%] z-50 top-0 w-full lg:w-16 lg:max-w-md lg:h-screen'>
         {/*  inner  */}
         <div className='flex w-full lg:flex-col items-center
          justify-between lg:justify-center gap-y-10 px-4
@@ -55,7 +55,7 @@ const Nav = () => {
 
                     {/*Tooltip*/}
                     <div
-                        className='absolute pr-14 right-0 opacity-0 invisible lg:group-hover:visible lg:group-hover:opacity-100 transition-all duration-300 '>
+                        className='absolute pl-14 left-0 opacity-0 invisible lg:group-hover:visible lg:group-hover:opacity-100 transition-all duration-300 '>
                         <div className='bg-white relative flex
                          text-primary items-center p-[6px]
                         rounded-[3px]
@@ -64,8 +64,8 @@ const Nav = () => {
                                 {link.name}
                             </div>
                             {/*triangle*/}
-                            <div className='border-solid border-l-white border-l-8
-                     border-y-transparent border-y-[6px] border-r-0 absolute -right-2'>
+                            <div className='border-solid border-r-white border-r-8
+                     border-y-transparent border-y-[6px] border-l-0 absolute -left-2'>
 
                             </div>
                         </div>

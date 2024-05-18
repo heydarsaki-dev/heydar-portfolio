@@ -10,7 +10,7 @@ const config: Config = {
         container: {
             padding: {
                 DEFAULT: '15px',
-            },
+            }
         },
         screens: {
             sm: '640px',
@@ -39,6 +39,8 @@ const config: Config = {
             fontFamily: {
                 poppins: [`var(--font-poppins)`, 'sans-serif'],
                 sora: [`var(--font-sora)`, 'sans-serif'],
+                yekanbakh: [`var(--font-yekanbakh)`, 'yekanbakh'],
+                vazir: [`var(--font-vazir)`, 'vazir'],
             },
         },
     },

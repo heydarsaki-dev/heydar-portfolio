@@ -126,7 +126,7 @@ const AboutTabs = () => {
           <div>{item.stage}</div>
           <div className="flex gap-x-4">
             {item.icons?.map((icon , itemIndex) =>{
-              return <div className="text-2xl text-white">
+              return <div key={itemIndex}  className="text-2xl text-white">
                 {icon}
               </div>
             })}

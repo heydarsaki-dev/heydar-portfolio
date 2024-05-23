@@ -19,7 +19,7 @@ const About = () => {
                 <h3 className='h3'>
                     Captivating <span className='text-accent'>stories</span> birth magnificent designs.
                 </h3>
-                <p className='max-w-[500px] mx-auto lg:mx-0 mb-6 lg:mb-12 px-2 lg:px-0'>10 years ago, I began freelancing as a developer. Since then, I've done
+                <p className='max-w-[500px] mx-auto lg:mx-0 mb-6 lg:mb-12 px-2 lg:px-0'>10 years ago, I began freelancing as a developer. Since then, I have done
                     remote work for agencies, counsulted for startups, and collaborated on digital products for business and consumer use.
                 </p>
             </div>

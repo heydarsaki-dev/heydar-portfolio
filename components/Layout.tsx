@@ -13,7 +13,7 @@ export default function Layout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className={'page w-full h-full bg-site text-white bg-cover bg-no-repeat'}>
+        <div className={'w-full h-full bg-site text-white bg-cover bg-no-repeat'}>
             <TopLeftImg />
             <Nav />
             <Header />
